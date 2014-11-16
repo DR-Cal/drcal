@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  database: drcal_development
+  pool: 5
+  timeout: 5000
+  encoding: unicode
+
+test:
+  adapter: postgresql
+  database: drcal_test
+  pool: 5
+  timeout: 5000
+  encoding: unicode
+
+staging:
+  adapter: postgresql
+  database: drcal_staging
+  pool: 5
+  timeout: 5000
+  encoding: unicode
+
+production:
+  adapter: postgresql
+  database: drcal_production
+  pool: 5
+  timeout: 5000
+  encoding: unicode
